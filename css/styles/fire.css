@@ -1,0 +1,35 @@
+body {
+  background-image: url("/img/fire_bg.png");
+}
+
+.inv {
+  background-image: url("/img/fire_bg_d.png");
+}
+
+.navbar-color {
+  background-color: #333333;
+  color: cornsilk;
+}
+
+.header-image {
+  content:url("/img/fire_header.jpg");
+}
+
+h1, a, a:visited, .nav-link {
+  color: #b72d03;
+}
+
+button {  
+  color: #fff;
+  background-color: #b72d03;
+  border-color: #6b1800;
+}
+
+.content {
+  background-color: #ffffff;
+}
+
+input {
+  background-color: #ffffff;
+  color: #333333;
+}

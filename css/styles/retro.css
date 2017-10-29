@@ -1,0 +1,36 @@
+body {
+  background-image: url("/img/retro_bg.png");
+}
+
+.inv {
+  background-image: url("/img/retro_bg.png");
+}
+
+.navbar-color {
+  background-color: #333333;
+  color: #f789ff;
+}
+
+.header-image {
+  content:url("/img/retro_header.jpg");
+}
+
+h1, a, a:visited, .nav-link {
+  color: #c403c4;
+}
+
+button {  
+  color: #fff;
+  background-color: #c403c4;
+  border-color: #8c008c;
+}
+
+.content {
+  background-color: #333333;
+  color: #D3D3D3;
+}
+
+input {
+  background-color: #D3D3D3;
+  color: #3A3A3A;
+}

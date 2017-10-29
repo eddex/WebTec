@@ -1,0 +1,36 @@
+body {
+  background-image: url("/img/leaf_bg_d.png");
+}
+
+.inv {
+  background-image: url("/img/leaf_bg_d.png");
+}
+
+.navbar-color {
+  background-color: #333333;
+  color: #7fffa7;
+}
+
+.header-image {
+  content:url("/img/leaf_header.jpg");
+}
+
+h1, a, a:visited, .nav-link {
+  color: #03b739;
+}
+
+button {  
+  color: #fff;
+  background-color: #03b739;
+  border-color: #00873a;
+}
+
+.content {
+  background-color: #333333;
+  color: #D3D3D3;
+}
+
+input {
+  background-color: #D3D3D3;
+  color: #3A3A3A;
+}

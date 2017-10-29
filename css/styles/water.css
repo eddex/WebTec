@@ -1,0 +1,35 @@
+body {
+  background-image: url("/img/water_bg.png");
+}
+
+.inv {
+  background-image: url("/img/water_bg_d.png");
+}
+
+.navbar-color {
+  background-color: #333333;
+  color: aqua;
+}
+
+.header-image {
+  content:url("/img/water_header.jpg");
+}
+
+h1, a, a:visited, .nav-link {
+  color: #028ee5;
+}
+
+button {  
+  color: #fff;
+  background-color: #028ee5;
+  border-color: #004fb7;
+}
+
+.content {
+  background-color: #ffffff;
+}
+
+input {
+  background-color: #ffffff;
+  color: #333333;
+}

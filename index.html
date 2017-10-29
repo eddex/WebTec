@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>hslu.tk</title>
+  <meta name="author" content="Marco Palkoska" />
+  <meta charset="utf-8" />
+  <link rel="stylesheet" type="text/css" href="css/supreme_leader.css">
+  <link rel="stylesheet" type="text/css" href="css/styles/fire.css" id="pagestyle">
+  <link rel="stylesheet" type="text/css" href="css/glyphicon.css">
+</head>
+<body onload="restoreStyle()">
+  <div id="debug"></div>
+  <div class="container">
+    <div class="header">
+      <img class="header-image" src="img/fire_header.jpg" alt="page title image" />
+    </div>
+    <nav class="navbar navbar-color">
+      <div id="mobile-nav-title" class="mobile-nav-title clickable">
+        <span>menu</span>
+        <span class="glyphicon glyphicon-menu-hamburger"></span>
+      </div>
+      <div id="menu_elements">
+        <ul>
+          <li id="home" class="clickable active">home</li>
+          <li id="canvas" class="clickable">canvas</li>
+          <li id="form" class="clickable">form</li>
+          <li id="text" class="clickable">text & images</li>
+        </ul>
+      </div>
+    </nav>
+    <div id="content">
+      
+    </div>
+    <footer>
+      <span>select theme :</span>
+      <div class="styleswap-button-group">
+        <span class="glyphicon glyphicon-fire clickable styleswap-button" aria-hidden="true" onclick="changeToStyle('fire')"></span>
+        <span class="glyphicon glyphicon-leaf clickable styleswap-button" aria-hidden="true" onclick="changeToStyle('leaf')"></span>
+        <span class="glyphicon glyphicon-tint clickable styleswap-button" aria-hidden="true" onclick="changeToStyle('water')"></span>
+        <span class="glyphicon glyphicon-eye-open clickable styleswap-button" aria-hidden="true" onclick="changeToStyle('retro')"></span>
+      </div>
+    </footer>
+  </div>
+  <!-- scripts -->
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <script src="js/style_swapper.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/navigation_inline.js"></script>
+  <script src="js/three.js"></script>
+</body>
+</html>
