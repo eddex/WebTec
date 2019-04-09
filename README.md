@@ -1,12 +1,8 @@
-the mighty source of [hslu.ml](http://hslu.ml/)
+# WebTec
 
-
-HTML5
-
-CSS3
-
-Canvas
-
-Awesome Animations
-
-using [TreeJS](https://github.com/mrdoob/three.js/) 
+- Topics
+  - HTML5
+  - CSS3
+  - Canvas
+  - Awesome Animations
+  - using [TreeJS](https://github.com/mrdoob/three.js/) 
